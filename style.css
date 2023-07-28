@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+/* NavBar and Element */
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    /* height: 4rem; */
+    margin: 1rem 0rem 1rem 1.5rem;
+}
+nav .logo {
+    display:flex;
+    
+}
+nav .menu-logo {
+    display:none;
+    
+}
+.logo p , .logo span{
+    font-size: 2rem;
+}
+.logo img {
+    height: 3rem;
+}
+.menu a {
+    padding-left: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #252525;
+}
+.menu{
+    margin-right: 1.5rem;
+}
+
+/* container top */
+.picture-hide{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+}
+.container .image{
+    width: 60%;
+    height: 100%;
+}
+.container .image img{
+    width: 100%;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+.container .text{
+    width: 40%;
+    padding-left: 2rem;
+}
+.container .text .box {
+    width: 65%;
+}
+.container .text h1{
+    font-size: 2.2rem;
+    color: #494949;
+}
+.container .text h3{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #585858;
+}
+.container .text .button-gray{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 60%;
+    color: azure;
+    background-color: #585858;
+    cursor:pointer;
+}
+.container .text .button-gray p{
+    font-size: 1.5rem;
+}
+.container .text  .button-gray:hover{
+    background-color: #303030;
+    
+}
+
+/* Container center */
+.container .card-right-col{
+    width: 40%;
+}
+.container .card-right-col .card-horizontal{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.container .card-right-col .card-horizontal .image{
+    width: 35%;
+}
+.container .card-right-col .card-horizontal .text-card{
+    width: 65%;
+}
+.container .card-right-col .card-horizontal img{
+    width: 100%;
+}
+.container .card-right-col .card-horizontal h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.75;
+}
+.container .card-right-col .card-horizontal .time{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.75;
+
+    width: 80%;
+
+}
+
+.container .card-right-col  :hover{
+    background-color: rgb(233, 233, 233);
+    cursor:pointer;
+
+}
+.container .topic {
+    font-size: 1.8rem;
+    color: #585858;
+    margin-left: 2rem;
+}
+.container .word {
+    margin-top: 1.5rem;
+    width: 85%;
+    text-align: justify;
+    margin-left: 2rem;
+    opacity: 0.75;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.container-learning .head-text{
+    width: 100%;
+}
+.head-text h1{
+    font-size: 2.5rem;
+    color: #505050;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.container-learning{
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+}
+.container-learning .body {
+    display: flex;
+    justify-content: center;
+
+
+}
+.container-learning .body{
+    width:100%;
+    padding: 0rem 4.5rem;
+}
+.container-learning .body .flex-card{
+    width: 25rem;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: #ffff;
+    height: 25rem;
+
+}
+.container-learning .body .flex-card:hover{
+
+    background-color: #dfdfdf;
+
+
+}
+.card-ver .image{ 
+    height: 12.8rem;
+}
+.card-ver .image img{ 
+    height: 100%;
+}
+.card-ver .text-ver h1{ 
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.75;
+}
+.card-ver .text-ver h3{ 
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.75;
+}
+.card-ver .text-ver{ 
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+.card-ver .text-ver p{ 
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.75;
+    width: 70%;
+
+}
+
+/* section 4 */
+
+.container .image{
+    width: 60%;
+    height: 100%;
+}
+.container .image video{
+    width: 100%;
+    padding: 0rem 1.5rem 2rem 1.5rem;
+}
+.margin-center{
+    margin: 0rem 2.9rem
+}
+
+footer{
+    border-top: #d8d8d8 1px solid ;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+    .card-ver .text-ver h1{ 
+        font-size: 1rem;
+        font-weight: 500;
+        opacity: 0.75;
+    }
+    .card-ver .text-ver h3{ 
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        font-weight: 300;
+        opacity: 0.75;
+    }
+    .card-ver .text-ver{ 
+        margin-left: 1rem;
+        margin-top: 1rem;
+    
+    }
+    .card-ver .text-ver p{ 
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        font-weight: 300;
+        opacity: 0.75;
+        width: 100%;
+    
+    }
+    .container-learning .body{
+        width:100%;
+        padding: 0rem 2rem;
+    }
+    .margin-center{
+        margin: 0rem 1rem
+    }
+    .word{
+        word-spacing: -2px;
+    }
+    .container-learning .body .flex-card{
+        width: 25rem;
+        object-fit: cover;
+        overflow: hidden;
+        background-color: #ffff;
+        height: auto;
+    
+    }
+    .container .card-right-col .card-horizontal h1{
+        font-size: 1rem;
+        font-weight: 500;
+        opacity: 0.75;
+    }
+    .container .card-right-col .card-horizontal p{
+        font-size: 0.8rem;
+        font-weight: 500;
+        opacity: 0.75;
+    }
+    .container .card-right-col .card-horizontal .time{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .container .topic {
+        font-size: 1.3rem;
+        margin-left: 2rem;
+    }
+    .container .word {
+        margin-top: 1rem;
+        width: 85%;
+        text-align: justify;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        font-size: 0.8rem;
+    }
+    .container .text h1{
+        font-size: 1.3rem;
+    }
+    .container .text h3{
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .container .text .button-gray{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1.2rem;
+        width: 60%;
+    }
+    .container .text .button-gray p{
+        font-size: 0.7rem;
+    }
+
+    .logo p , .logo span{
+        font-size: 0.8rem;
+    }
+    .logo img {
+        height: 1.3rem;
+    }
+    .menu a {
+        padding-left: 0.3rem;
+    }
+    a{
+        text-decoration: none;
+        color: #252525;
+        font-size: 0.7rem;
+    }
+    .menu{
+        margin-right: 1rem;
+    }
+
+  }
+  
+
+  @media (max-width: 425px) {
+
+    nav .menu , nav .logo{
+        display: none;
+    }
+    nav .menu-logo{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background-color: rgb(216, 216, 216);
+        padding: 0;
+        padding-bottom: 2rem;
+        width: 100%;
+        margin:0;
+    }
+    .container .image{
+        width: 100%;
+        margin-bottom: 2rem;
+        
+    }
+    .container .image img{
+        width: 100%;
+        padding: 0;
+    }
+    .container .text{
+        width: 100%;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+        
+    }
+    .container .text .box {
+        width: 100%;
+        
+    }
+    .container .text h1{
+        font-size: 2.5rem;
+    }
+    .container .text h3{
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #585858;
+        width: 100%;
+    }
+    .container .text .button-gray{
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.5rem;
+        width: 95%;
+        
+
+    }
+    .container .text .button-gray p{
+        font-size: 1.5rem;
+    }
+    .none{
+        display:none;
+    }
+    .picture-hide{
+        display: block;
+    }
+    .container .card-right-col .card-horizontal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .container .card-right-col .card-horizontal .image{
+        width: 100%;
+    }
+    .container .card-right-col .card-horizontal .text-card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .container .card-right-col .card-horizontal img{
+        width: 100%;
+    }
+    .container .card-right-col .card-horizontal h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+        opacity: 0.75;
+    }
+    .container .card-right-col .card-horizontal .time{
+        font-size: 1rem;
+    
+    }
+    .container .card-right-col .card-horizontal p{
+        font-size: 1rem;
+        font-weight: 400;
+        opacity: 0.75;
+        width: 100%;
+    }
+    
+    .container .card-right-col  :hover{
+        background-color: rgb(233, 233, 233);
+        cursor:pointer;
+    
+    }
+    .container .topic {
+        font-size: 1.8rem;
+        color: #585858;
+        margin-left: 2rem;
+    }
+    .container .word {
+        margin-top: 1.5rem;
+        width: 100%;
+        text-align: justify;
+        margin-left: 2rem;
+        opacity: 0.75;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+    .container-learning .head-text{
+        width: 100%;
+    }
+    .head-text h1{
+        font-size: 2.5rem;
+        color: #505050;
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+    .container .card-right-col{
+        width: 100%;
+    }
+    footer{
+        border-top: #d8d8d8 1px solid ;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+    }
+    .container-learning .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        background-color: #ffff;
+        margin: 0;
+    }
+    .margin-center{
+        margin: 0;
+        padding: 0;
+    }
+    .card-ver .text-ver h1{ 
+        font-size: 1rem;
+        font-weight: 500;
+        opacity: 0.75;
+        margin-left: 3rem;
+    }
+    .card-ver .text-ver { 
+        display: flex;
+        justify-content: start;
+        height: 100%;
+        align-items: center;
+        padding: 0;
+    }
+    .card-ver{ 
+        height: 3rem;
+        color: #252525;
+        background-color: #bdbdbd;
+        width: 70%;
+        
+    }
+    .container-learning .head-text{
+
+        background-color: #ffff;
+    }
+    footer .left p{
+        font-size: 0.7rem;
+    }
+    footer .right p {
+        font-size: 0.7rem;
+    }
+}
