@@ -15,6 +15,19 @@ nav {
     /* height: 4rem; */
     margin: 1rem 0rem 1rem 1.5rem;
 }
+.group-data h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:#464646;
+    background-color: #dfdfdf;
+    margin: 0.6rem 0.5rem;
+    padding: 1rem 0rem 1.5rem 1rem;
+    
+}
+.group-data {
+    display: none;
+    
+}
 nav .logo {
     display:flex;
     
@@ -345,7 +358,7 @@ footer{
   }
   
 
-  @media (max-width: 425px) {
+  @media (max-width: 426px) {
 
     nav .menu , nav .logo{
         display: none;
@@ -504,7 +517,7 @@ footer{
         font-size: 1rem;
         font-weight: 500;
         opacity: 0.75;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .card-ver .text-ver { 
         display: flex;
@@ -517,7 +530,7 @@ footer{
         height: 3rem;
         color: #252525;
         background-color: #bdbdbd;
-        width: 70%;
+        width: 100%;
         
     }
     .container-learning .head-text{
@@ -530,4 +543,10 @@ footer{
     footer .right p {
         font-size: 0.7rem;
     }
+    .group-data {
+        display: block;
+    }
+}
+@media (max-width: 320px) {
+
 }
