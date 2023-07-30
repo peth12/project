@@ -27,11 +27,11 @@ nav {
     padding: 1rem 0rem 1.5rem 1rem;
     
 }
-.group-data {
+.group-data{
     display: none;
     
 }
-nav .logo {
+nav .logo{
     display:flex;
     
 }
@@ -550,7 +550,4 @@ footer{
     .group-data {
         display: block;
     }
-}
-@media (max-width: 320px) {
-
 }
